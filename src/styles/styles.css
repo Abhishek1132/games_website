@@ -1,0 +1,43 @@
+:root {
+  --g1background: lavenderblush;
+  --g1main: rgb(255, 0, 119);
+  --g1mainver: rgb(231 16 99);
+  --g1mainshadow: rgb(245, 171, 193);
+  --g1success: rgba(160, 219, 126, 0.95);
+  --g1draw: rgb(255 196 75 / 95%);
+  --g1failure: rgba(231, 16, 99, 0.85);
+  --g1darkbg: rgb(50 50 50);
+  --g1darkbgver: rgb(40, 40, 40);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.g1-main-container button {
+  font-size: 32px;
+  width: 130px;
+  height: 60px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: black;
+}

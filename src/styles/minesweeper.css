@@ -1,0 +1,9 @@
+.g2-game-container * {
+  user-select: none;
+}
+
+.unknown {
+  background-color: rgb(56, 56, 56);
+  outline: 3px;
+  cursor: pointer;
+}

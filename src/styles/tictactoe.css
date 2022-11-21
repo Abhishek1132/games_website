@@ -1,0 +1,183 @@
+.g1-main-container * {
+  user-select: none;
+  font-family: "Exo 2", cursive;
+}
+.g1-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--g1background);
+}
+
+.g1-game-title {
+  font-size: 64px;
+  color: var(--g1main);
+  text-shadow: 3px 3px 3px var(--g1mainshadow);
+}
+
+.g1-game-mode {
+  margin: 20px;
+  font-size: 16px;
+  padding: 6px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid transparent;
+  box-shadow: 1px 2px 8px 2px var(--g1darkbg) inset;
+  border-radius: 4px;
+  background-color: var(--g1darkbg);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.g1-game-mode:hover {
+  border-bottom: 2px solid var(--g1main);
+}
+
+.g1-game-mode:focus {
+  outline: none;
+}
+
+.g1-player-turn {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.g1-scorex,
+.g1-scoreo {
+  background-color: var(--g1darkbg);
+  width: 100px;
+  height: 50px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  box-shadow: 1px 3px 10px 1px rgb(40, 40, 40) inset;
+}
+
+.g1-score-highlight {
+  box-shadow: 0px 0px 12px 2px hotpink inset;
+}
+
+.g1-scorex {
+  color: red;
+}
+.g1-scoreo {
+  color: orange;
+}
+
+.g1-game-container {
+  height: 400px;
+  width: 300px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.g1-row {
+  width: 260px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.g1-block {
+  width: 80px;
+  height: 80px;
+  font-size: 54px;
+  border: 2px solid var(--g1main);
+  text-align: center;
+  align-self: center;
+  padding-top: 3px;
+  border-radius: 2px;
+}
+
+.g1-block-hover:hover {
+  background-color: rgba(255, 0, 21, 0.082);
+  cursor: pointer;
+}
+
+.g1-controls {
+  text-align: center;
+  font-size: 46px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.g1-game-status {
+  position: absolute;
+  top: 52%;
+  font-size: 46px;
+  text-align: center;
+  background-color: var(--g1success);
+  color: white;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 3px 2px 12px 2px rgba(204, 204, 204, 0.925);
+  user-select: none;
+}
+
+.hide {
+  display: none;
+}
+.g1-player-symbol {
+  color: var(--g1main);
+}
+
+#b00,
+#b10,
+#b20 {
+  border-left: none;
+}
+
+#b00,
+#b01,
+#b02 {
+  border-top: none;
+}
+
+#b02,
+#b12,
+#b22 {
+  border-right: none;
+}
+
+#b20,
+#b21,
+#b22 {
+  border-bottom: none;
+}
+
+#g1-restart-btn {
+  background-color: var(--g1main);
+  margin-top: 20px;
+  box-shadow: 3px 3px 12px 2px var(--g1mainshadow);
+}
+
+#g1-restart-btn:hover {
+  background-color: var(--g1mainver);
+  opacity: 1;
+}
+
+#g1-home-btn {
+  background-color: var(--g1darkbg);
+  margin-top: 20px;
+  box-shadow: 1px 1px 12px 1px rgb(150, 150, 150);
+}
+
+#g1-home-btn:hover {
+  background-color: var(--g1darkbgver);
+}
