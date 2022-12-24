@@ -1,6 +1,6 @@
 # Games Website
 
-Games Website is website where you can play small and simplistic games made using reactJS.
+A website where you can play small and simplistic games like tic-tac-toe, Minesweeper, 2048, etc made using reactJS.
 
 ## How to run
 
