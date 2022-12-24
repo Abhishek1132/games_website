@@ -15,19 +15,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .g1-main-container button {
@@ -37,7 +30,7 @@ code {
   cursor: pointer;
   border: none;
   color: white;
-  padding: 12px;
+  /* padding: 12px; */
   border-radius: 4px;
   background-color: black;
 }

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../../../styles/minesweeper.css";
 
 const modeSettings = {
@@ -481,6 +482,9 @@ export default function Minesweeper() {
             })}
           </tbody>
         </table>
+      </div>
+      <div>
+        <Link to="/"> Home </Link>
       </div>
     </div>
   );

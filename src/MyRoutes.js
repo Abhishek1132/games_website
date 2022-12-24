@@ -9,7 +9,7 @@ import Game2048 from "./components/game/2048/Game2048";
 
 export default function MyRoutes() {
   return (
-    <div>
+    <div className="bg-secondary">
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/game/tictactoe" exact element={<Tictactoe />} />
